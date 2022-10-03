@@ -1,0 +1,211 @@
+<html>
+	<head>
+		<title>Music Express</title>
+        <style type="text/css">
+			body {
+             background-color: #6edada;
+            }
+			* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			.nav{
+               
+                position: relative;
+                right: -500px;
+                top:-90px;
+                
+            }
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#6edada;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+            body, html {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow:hidden;
+}
+
+.musica{
+    background-color: #fff;
+    width: 740px;
+    height: 350px;
+ border-radius: 25%;
+ position: relative;
+ top: 140px;
+ left: 300px;
+ text-align: center;
+}
+
+.caru{
+    position: relative;
+    top:-360px;
+}
+.katy{
+    height: 150px;
+    border-radius: 55%; 
+    position: relative;
+    top: 40px;
+
+}
+.audio{
+    position: relative;
+    top: 25px;
+    left: -50px;
+}
+.titulo{
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    left: 150px;;
+    top:-70px
+    
+}
+.sigue{
+    width: 50px;
+    height: 50px;
+   
+    
+}
+.boton{
+    position: relative;
+    left: 100px;
+}
+.ge{
+    color:#fff;
+    position: relative;
+    left: 550px;
+}
+.buscar{
+    position:relative;
+    top:-580px;
+    left: 600px;
+    border-radius: 30px;
+
+}
+.buscar input{
+    width: 240px;
+    height: 40px;
+    font-size: 18px;
+    color:black;
+    border:1px solid silver;
+    border-radius: 30px;
+}
+
+		</style>
+    </head>
+	<body>
+    <img  src="imagen1.png" width="250" height="150">
+    <div  id="header">
+        <ul class="nav">
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Ajustes</a>
+                <ul>
+                    <li><a href="">Cuenta</a></li>
+
+                    <li><a href="">Descargas</a></li>
+                    <li><a href="">Favoritos</a>
+                        <ul>
+                        
+                            <li><a href="">Artistas</a></li>
+                            <li><a href="">Cantantes</a></li>
+                            <li><a href="">Musica</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="">Acerca de</a>
+                <ul>
+                    <li><a href="">Nosotros</a></li>
+                
+                </ul>
+            </li>
+            <li><a href="">Mi música</a></li>
+        </ul>
+    </div>
+   
+   
+    <div class="musica">
+        <h1>Reproductor de canciones</h1>
+        <img class="katy" src="Katy Perry.png" width="300px" height="300px">
+        <audio class="audio" src="audio1.mp3" controls></audio>
+        <h2 class="titulo">katy perry - smile lyrics</h2> 
+        <div class="boton">
+        <button type="button"> 
+        <img class= "sigue" src="ante1.png"  alt="">
+        </button>
+     <button type="button"> 
+    <img class= "sigue" src="sigue.png"  alt="">
+</button>
+<button type="button"> 
+    <img class= "sigue" src="al.png"  alt="">
+</button>
+<button type="button"> 
+    <img class= "sigue" src="cor.png"  alt="">
+</button>
+
+</div>
+
+    </div>
+
+    <div class="caru">
+        <h1 class="ge">Generos Musicales</h1>
+        <marquee direction="right">
+            <img src="Taylor Swift.png"  width="250" height ="100" >
+            <img src="MALUMA.png"  width="250" height ="100" >
+            <img src="MORAT.png"  width="250" height ="100">
+            <img src="Katy Perry.png"  width="250" height ="100">
+            <img src="Reik.png"  width="250" height ="100">
+            <img src="Camila.png" width="250" height ="100">
+            <img src="Jenni.png" width="250" height ="100">
+            <img src="Abba.png" width="250" height ="100">
+            <img src="Selena.png" width="250" height ="100">
+            </marquee>
+    </div>
+    <div class="buscar">
+        <input type="text" placeholder="Buscar" required>
+<img class="lupa" src="107122.png" width="20px" height="20px">
+    </div>
+</body>
+</html>
